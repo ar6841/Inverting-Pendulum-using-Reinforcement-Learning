@@ -3,11 +3,16 @@
 Simulation of pendulum trying to balance itself in an inverted position
 ![image](https://user-images.githubusercontent.com/96152967/216853308-3bdda7c6-c78b-41cf-922a-e5c636c7ded1.png)
 
-$x=\left(\begin{array}{l}\theta \\ \omega\end{array}\right)$ 
+$$
+x=\left(\begin{array}{l}
+\theta \\
+\omega
+\end{array}\right)
+$$
 
-$\sum_{i=0}^{\infty} \alpha^i g\left(x_i, u_i\right)$
-
-$g\left(x_i, u_i\right)=(\theta-\pi)^2+0.01 \cdot \dot{\theta}_i^2+0.0001 \cdot u_i^2 \quad$ and $\quad \alpha=0.99$
+$$
+\sum_{i=0}^{\infty} \alpha^i g\left(x_i, u_i\right)
+$$
 
 $$
 g\left(x_i, u_i\right)=(\theta-\pi)^2+0.01 \cdot \dot{\theta}_i^2+0.0001 \cdot u_i^2 \quad \text { and } \quad \alpha=0.99
