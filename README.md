@@ -8,7 +8,7 @@ The pendulum is in a configuration as shown below:
 
 ![image](https://user-images.githubusercontent.com/96152967/216853308-3bdda7c6-c78b-41cf-922a-e5c636c7ded1.png)
 
-Let the state vector of the pendulum $ x $ be given by:
+Let the state vector of the pendulum $x$ be given by:
 
 $$
 x=\left(\begin{array}{l}
@@ -17,7 +17,7 @@ x=\left(\begin{array}{l}
 \end{array}\right)
 $$
 
-Where $\theta and \omega $ are the angle from the vertical and angular velocity of the pendulum respectively. 
+Where $\theta$ and $\omega $ are the angle from the vertical and angular velocity of the pendulum respectively. 
 
 
 We want to minimize the following discounted cost function 
