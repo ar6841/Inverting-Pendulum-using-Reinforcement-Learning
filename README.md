@@ -46,6 +46,7 @@ $$
 
 ## Results
 The results vary upon changing the learning parametes. In this example:
+
 $$
 \begin{gathered}
 \epsilon=0.00001, \text { learning rate }=1 \\
