@@ -1,6 +1,15 @@
 # Inverting-Pendulum-using-Reinforcement-Learning
 
-Simulation of pendulum trying to balance itself in an inverted position.
+Simulation of pendulum trying to balance itself in an inverted position. Run Q_Learning_Pendulum_invert_1.ipynb and Q_Learning_Pendulum_invert_2.ipynb to simulate the results
+
+# Dependencies
+
+This project requires only two libraries: 
+
+1) [NumPy](https://numpy.org/install/)
+2) [Matplotlib](https://matplotlib.org/stable/users/getting_started/)
+
+## Results
 
 The optimum control policy is found using Q-learning with an epsilon greedy policy.
 
@@ -14,7 +23,7 @@ https://user-images.githubusercontent.com/96152967/216857971-7efe3fd9-a714-4ef3-
 
 
 
-## Simulation setup
+## Simulation and Pendulum setup
 
 The pendulum is in a configuration as shown below:
 
