@@ -11,10 +11,7 @@ This project requires only two libraries:
 
 ## Results
 
-The optimum control policy is found using Q-learning with an epsilon greedy policy.
-
-
-
+The control policy to swing a pendulum up was found using model free Q-learning with an epsilon greedy policy. 
 
 
 https://user-images.githubusercontent.com/96152967/216857971-7efe3fd9-a714-4ef3-a595-caff0712cbbf.mp4
