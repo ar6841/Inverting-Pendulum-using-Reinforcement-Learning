@@ -9,7 +9,7 @@ This project requires only two libraries:
 1) [NumPy](https://numpy.org/install/)
 2) [Matplotlib](https://matplotlib.org/stable/users/getting_started/)
 
-## Results
+## Output
 
 The control policy to swing a pendulum up was found using model free Q-learning with an epsilon greedy policy. 
 
@@ -50,7 +50,7 @@ $$
 g\left(x_i, u_i\right)=(\theta-\pi)^2+0.01 \cdot \dot{\theta}_i^2+0.0001 \cdot u_i^2 \quad \text { and } \quad \alpha=0.99
 $$
 
-## Results
+## Results and Discussion
 The results vary upon changing the learning parametes. In this example:
 
 $$
